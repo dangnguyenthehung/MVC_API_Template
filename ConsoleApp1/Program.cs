@@ -17,7 +17,7 @@ namespace ConsoleApp1
             var demo = new DemoHelper("123456");
             demo.Insert("https://www.google.com.vn/", "demo");
 
-            var emp = new Employee(){IdEmployee = 1, Permissions = new List<int>(){10,2}};
+            var emp = new Employee(){Id = 1, Permissions = new List<int>(){10,2}};
             MenuLayoutVisibilityConstant menuLayoutVisibilityConstant = new MenuLayoutVisibilityConstant();
             menuLayoutVisibilityConstant.CheckMenuVisibilityState(emp);
 
@@ -36,9 +36,9 @@ namespace ConsoleApp1
 
         }
 
-        class Employee : IEmployee
+        class Employee : IAccount
         {
-            public int IdEmployee { get; set; }
+            public int Id { get; set; }
             public List<int> Permissions { get; set; }
         }
     }

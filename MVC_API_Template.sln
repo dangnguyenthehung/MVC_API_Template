@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCall", "ApiCall\ApiCall.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{0C59E853-FFC3-4427-A967-1CEE651019A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constants", "Constants\Constants.csproj", "{C8E21173-3506-4C3D-A864-099C5E7B758E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constants", "Constants\Constants.csproj", "{C8E21173-3506-4C3D-A864-099C5E7B758E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C8E21173-3506-4C3D-A864-099C5E7B758E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8E21173-3506-4C3D-A864-099C5E7B758E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8E21173-3506-4C3D-A864-099C5E7B758E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

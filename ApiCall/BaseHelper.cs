@@ -231,6 +231,22 @@ namespace ApiCall
             return client;
         }
 
+        private HttpClient CreateHttpClientWithJWToken(string apiUrl)
+        {
+            var client = new HttpClient();
+            client.BaseAddress = new Uri(apiUrl);
+
+            client.DefaultRequestHeaders.Accept.Clear();
+
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            var data = Encoding.ASCII.GetBytes(_token);
+            var header = new AuthenticationHeaderValue("Bearer", Convert.ToBase64String(data));
+            client.DefaultRequestHeaders.Authorization = header;
+
+            return client;
+        }
+
         #endregion
 
     }

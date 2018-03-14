@@ -8,7 +8,7 @@ namespace Constants
 {
     public class MenuLayoutVisibilityConstant
     {
-    private static IEmployee _loginAccount = null;
+    private static IAccount _loginAccount = null;
 
         public _Demo Demo = new _Demo();
 
@@ -26,13 +26,13 @@ namespace Constants
         #endregion
 
 
-        public void CheckMenuVisibilityState(IEmployee loginAccount)
+        public void CheckMenuVisibilityState(IAccount loginIAccount)
         {
-            if (loginAccount?.IdEmployee == null)
+            if (loginIAccount?.Id == null)
             {
                 return;
             }
-            _loginAccount = loginAccount;
+            _loginAccount = loginIAccount;
 
             #region ModuleVisibilityState
 

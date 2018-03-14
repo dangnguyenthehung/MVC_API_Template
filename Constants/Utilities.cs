@@ -215,7 +215,7 @@ namespace Constants
         #endregion
 
         #region Custom Utilities
-        public static string CreateLoginToken(ILoginAccount account)
+        public static string CreateLoginToken(ILogin account)
         {
             var loginStr = JsonConvert.SerializeObject(account);
 
@@ -223,12 +223,12 @@ namespace Constants
             return encryptor.EncryptString_Aes(loginStr);
         }
 
-        public static ILoginAccount ParseLoginToken(string token)
+        public static ILogin ParseLoginToken(string token)
         {
             var encryptor = new Encryptor.AESdecrypt();
             var loginStr = encryptor.DecryptString_Aes(token);
 
-            return JsonConvert.DeserializeObject<ILoginAccount>(loginStr);
+            return JsonConvert.DeserializeObject<ILogin>(loginStr);
         }
         #endregion
 

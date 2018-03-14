@@ -1,9 +1,0 @@
-D:\ASP.NET\MVC_API_Template\Constants\bin\Debug\netstandard2.0\Constants.deps.json
-D:\ASP.NET\MVC_API_Template\Constants\bin\Debug\netstandard2.0\Constants.dll
-D:\ASP.NET\MVC_API_Template\Constants\bin\Debug\netstandard2.0\Constants.pdb
-D:\ASP.NET\MVC_API_Template\Constants\obj\Debug\netstandard2.0\Constants.csprojResolveAssemblyReference.cache
-D:\ASP.NET\MVC_API_Template\Constants\obj\Debug\netstandard2.0\Constants.csproj.CoreCompileInputs.cache
-D:\ASP.NET\MVC_API_Template\Constants\obj\Debug\netstandard2.0\Constants.AssemblyInfoInputs.cache
-D:\ASP.NET\MVC_API_Template\Constants\obj\Debug\netstandard2.0\Constants.AssemblyInfo.cs
-D:\ASP.NET\MVC_API_Template\Constants\obj\Debug\netstandard2.0\Constants.dll
-D:\ASP.NET\MVC_API_Template\Constants\obj\Debug\netstandard2.0\Constants.pdb
