@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Constants.Interface;
+using Model.Interfaces;
 
 namespace Constants
 {

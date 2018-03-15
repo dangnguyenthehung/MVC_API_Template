@@ -5,11 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Abstract\**" />
+    <EmbeddedResource Remove="Abstract\**" />
+    <None Remove="Abstract\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
+    <ProjectReference Include="..\Models\Model.csproj" />
   </ItemGroup>
 
 </Project>

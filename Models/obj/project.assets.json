@@ -25,25 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Newtonsoft.Json/11.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Model.dll": {}
-        }
       }
     }
   },
@@ -67,8 +48,6 @@
       "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
-        "NETStandard.Library.2.0.1.nupkg.sha512",
-        "NETStandard.Library.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -186,48 +165,15 @@
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._"
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.nuspec"
       ]
-    },
-    "Newtonsoft.Json/11.0.1": {
-      "sha512": "pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
-      "type": "package",
-      "path": "newtonsoft.json/11.0.1",
-      "files": [
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec"
-      ]
-    },
-    "Model/1.0.0": {
-      "type": "project",
-      "path": "../Models/Model.csproj",
-      "msbuildProject": "../Models/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Model >= 1.0.0",
-      "NETStandard.Library >= 2.0.1",
-      "Newtonsoft.Json >= 11.0.1"
+      "NETStandard.Library >= 2.0.1"
     ]
   },
   "packageFolders": {
@@ -241,11 +187,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Project\\MVC_API_Template\\Constants\\Constants.csproj",
-      "projectName": "Constants",
-      "projectPath": "D:\\Project\\MVC_API_Template\\Constants\\Constants.csproj",
+      "projectUniqueName": "D:\\Project\\MVC_API_Template\\Models\\Model.csproj",
+      "projectName": "Model",
+      "projectPath": "D:\\Project\\MVC_API_Template\\Models\\Model.csproj",
       "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\MVC_API_Template\\Constants\\obj\\",
+      "outputPath": "D:\\Project\\MVC_API_Template\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -265,11 +211,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "D:\\Project\\MVC_API_Template\\Models\\Model.csproj": {
-              "projectPath": "D:\\Project\\MVC_API_Template\\Models\\Model.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -286,10 +228,6 @@
             "target": "Package",
             "version": "[2.0.1, )",
             "autoReferenced": true
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[11.0.1, )"
           }
         },
         "imports": [

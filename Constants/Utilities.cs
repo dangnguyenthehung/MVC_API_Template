@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using Constants.Interface;
+using Model.Interfaces;
 using Constants.Security;
 using Newtonsoft.Json;
 

@@ -31,9 +31,9 @@ namespace Api
                         ValidateIssuerSigningKey = true,
                         ValidIssuer = "yourdomain.com",
                         ValidAudience = "yourdomain.com",
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecurityKey_1"])),
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecurityKey_2"])),
                         // This is the decryption key
-                        TokenDecryptionKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecurityKey_2"]))
+                        TokenDecryptionKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecurityKey_1"]))
                     };
                 });
             services.AddMvc();

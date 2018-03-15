@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Constants.Interface
+namespace Model.Interfaces
 {
     public interface ILogin
     {

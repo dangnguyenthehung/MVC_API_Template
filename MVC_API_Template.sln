@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCall", "ApiCall\ApiCall.csproj", "{C08DE203-C657-4DFA-A3D4-DCC950904577}"
 EndProject
@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constants", "Constants\Constants.csproj", "{C8E21173-3506-4C3D-A864-099C5E7B758E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Models\Model.csproj", "{BF64888C-1F4F-4825-8564-CF3D73997C8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{925851E6-F22F-49D9-AEAB-5B0E24BDC2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF64888C-1F4F-4825-8564-CF3D73997C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF64888C-1F4F-4825-8564-CF3D73997C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF64888C-1F4F-4825-8564-CF3D73997C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF64888C-1F4F-4825-8564-CF3D73997C8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
